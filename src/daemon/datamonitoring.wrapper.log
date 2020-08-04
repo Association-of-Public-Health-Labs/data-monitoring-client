@@ -1,0 +1,56 @@
+2020-07-30 15:05:31 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-30 15:05:31 - Started 23296
+2020-07-30 15:07:46 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-30 15:07:46 - Started 22736
+2020-07-30 15:13:28 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-30 15:13:28 - Started 72
+2020-07-30 15:15:29 - Stopping datamonitoring.exe
+2020-07-30 15:15:29 - ProcessKill 72
+2020-07-30 15:15:30 - Found child process: 18064 Name: conhost.exe
+2020-07-30 15:15:30 - Found child process: 2108 Name: node.exe
+2020-07-30 15:15:30 - Stopping process 18064
+2020-07-30 15:15:30 - Send SIGINT 18064
+2020-07-30 15:15:30 - SIGINT to 18064 failed - Killing as fallback
+2020-07-30 15:15:30 - Stopping process 2108
+2020-07-30 15:15:30 - Send SIGINT 2108
+2020-07-30 15:15:30 - SIGINT to 2108 failed - Killing as fallback
+2020-07-30 15:15:30 - Stopping process 72
+2020-07-30 15:15:30 - Send SIGINT 72
+2020-07-30 15:15:30 - SIGINT to 72 failed - Killing as fallback
+2020-07-30 15:15:30 - Finished datamonitoring.exe
+2020-07-30 15:16:26 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-30 15:16:26 - Started 7604
+2020-07-31 08:55:49 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-31 08:55:49 - Started 8776
+2020-08-02 21:06:15 - Stopping datamonitoring.exe
+2020-08-02 21:06:15 - ProcessKill 8776
+2020-08-02 21:06:15 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-02 21:07:12 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-02 21:07:12 - Started 8516
+2020-08-03 09:19:37 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-03 09:19:37 - Started 8564
+2020-08-04 14:30:05 - Stopping datamonitoring.exe
+2020-08-04 14:30:05 - ProcessKill 8564
+2020-08-04 14:30:06 - Found child process: 8664 Name: conhost.exe
+2020-08-04 14:30:06 - Found child process: 9880 Name: node.exe
+2020-08-04 14:30:06 - Stopping process 8664
+2020-08-04 14:30:06 - Send SIGINT 8664
+2020-08-04 14:30:06 - SIGINT to 8664 failed - Killing as fallback
+2020-08-04 14:30:06 - Stopping process 9880
+2020-08-04 14:30:06 - Send SIGINT 9880
+2020-08-04 14:30:06 - SIGINT to 9880 failed - Killing as fallback
+2020-08-04 14:30:06 - Stopping process 8564
+2020-08-04 14:30:06 - Send SIGINT 8564
+2020-08-04 14:30:06 - SIGINT to 8564 failed - Killing as fallback
+2020-08-04 14:30:06 - Finished datamonitoring.exe
