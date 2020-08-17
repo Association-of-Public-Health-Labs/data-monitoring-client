@@ -1,0 +1,72 @@
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'sequelize/types'
+Require stack:
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Module.require (internal/modules/cjs/loader.js:1042:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1156:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1042:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\schedule.js',
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\server.js'
+  ]
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'sequelize/types'
+Require stack:
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Module.require (internal/modules/cjs/loader.js:1042:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1156:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1042:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\schedule.js',
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\server.js'
+  ]
+}
+internal/modules/cjs/loader.js:983
+  throw err;
+  ^
+
+Error: Cannot find module 'sequelize/types'
+Require stack:
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js
+- C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:980:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:862:27)
+    at Module.require (internal/modules/cjs/loader.js:1042:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\schedule.js:6:16)
+    at Module._compile (internal/modules/cjs/loader.js:1156:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1176:10)
+    at Module.load (internal/modules/cjs/loader.js:1000:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:899:14)
+    at Module.require (internal/modules/cjs/loader.js:1042:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\schedule.js',
+    'C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\server.js'
+  ]
+}

@@ -1,18 +1,20 @@
 const express = require("express");
+const fs = require("fs");
+const path = require("path");
+
+const SystemController = require("./controllers/SystemController");
 
 const app = express();
 
-const RequestController = require("./controllers/RequestController");
-const RLNKIDX4Controller = require("./controllers/RLNKIDX4Controller");
-
 const routes = express.Router();
+
+require("./schedule");
 
 routes.get("/", (req, res) => {
   return res.json({ message: "APHL" });
 });
 
-routes.get("/requests", RequestController.index);
-routes.get("/disalab", RLNKIDX4Controller.index);
+routes.get("/os", SystemController.index);
 
 app.use(routes);
 

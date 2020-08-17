@@ -1,12 +1,10 @@
 const RLNKIDX4 = require("../models/RLNKIDX4");
-const { index } = require("./RequestController");
+const { index } = require("./OpenldrController");
 const { fn, Op, col, literal, where } = require("sequelize");
 const moment = require("moment");
 
-const date = moment().format("YYYY-MM-DD");
-
 module.exports = {
-  async index(req, res) {
+  async index() {
     const data = await RLNKIDX4.findAll({
       attributes: [
         [literal("LEFT(LABNO,3)"), "lab"],
@@ -35,6 +33,6 @@ module.exports = {
       ],
     });
 
-    return res.json(data);
+    return { updated_at: moment().format("YYYY-MM-DD hh:mm:ss"), data: data };
   },
 };

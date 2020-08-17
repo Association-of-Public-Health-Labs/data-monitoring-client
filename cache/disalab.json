@@ -1,0 +1,33 @@
+{
+  "updated_at": "2020-08-17 03:50:00",
+  "data": [
+    {
+      "lab": "PQM",
+      "year": 2020,
+      "month": 8,
+      "days": 4,
+      "records": 1
+    },
+    {
+      "lab": "PMB",
+      "year": 2020,
+      "month": 8,
+      "days": 4,
+      "records": 2
+    },
+    {
+      "lab": "PJV",
+      "year": 2020,
+      "month": 8,
+      "days": 4,
+      "records": 1
+    },
+    {
+      "lab": "PJC",
+      "year": 2020,
+      "month": 8,
+      "days": 4,
+      "records": 1
+    }
+  ]
+}
