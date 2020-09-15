@@ -16,6 +16,8 @@
 Uma vez instaladas as dependências é de seguida feito o deployment da aplicação, bastando apenas clonar o projecto usando o git.
 `git clone https://github.com/Association-of-Public-Health-Labs/data-monitoring-client.git`
 
+Após o clone do projecto, deve-se executar o comando `yarn install` que procederá com a instalação de todas as dependências do `nodejs` necessárias.
+
 **Teste da aplicação**
 
 Para testar a aplicação deve-se executar o comando `yarn test` na raíz do projecto.
