@@ -13,7 +13,7 @@ const openldr = new Sequelize(
       },
       bigNumberStrings: true,
     },
-    // logging: false,
+    logging: false,
   }
 );
 

@@ -6,6 +6,7 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "service": "node src/service.js",
+    "uninstall": "node src/uninstall.js",
     "test": "node src/tests"
   },
   "repository": "https://github.com/Association-of-Public-Health-Labs/data-monitoring-client.git",

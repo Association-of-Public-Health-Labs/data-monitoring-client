@@ -1,7 +1,7 @@
 var Service = require("node-windows").Service;
 
 var svc = new Service({
-  name: "Data Monitoring",
+  name: "Server Monitoring",
   description: "This is a Windows service for LIMS Servers Monitoring",
   script:
     "C:\\Users\\User\\Documents\\Projects\\APHL\\Github\\data-monitoring-client\\src\\server.js",

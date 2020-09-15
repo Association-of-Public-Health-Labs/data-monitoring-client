@@ -6,9 +6,17 @@
 - Yarn Package Manager
 - Habilitar o acesso externo do SQL Server
 
-**Instalação**
+**Instalação das dependências**
 
-1. Instalar o gertor de pacotes Yarn
+1. Instalar o gestor de pacotes Yarn
 2. Instalar o Node Js na sua versão LTS e configurar as variáveis de ambiente
-3. Clonar o projecto no Github
-   `git clone https://github.com/Association-of-Public-Health-Labs/data-monitoring-client.git`
+
+**Deployment do client**
+Uma vez instaladas as dependências é de seguida feito o deployment da aplicação, bastando apenas clonar o projecto usando o git.
+`git clone https://github.com/Association-of-Public-Health-Labs/data-monitoring-client.git`
+
+**Teste da aplicação**
+Para testar a aplicação deve-se executar o comando `yarn test` na raíz do projecto.
+Se tudo correr conforme o desejado, o output do console será o seguinte:
+
+![](assets/console-output.png)
