@@ -20,3 +20,9 @@ Para testar a aplicação deve-se executar o comando `yarn test` na raíz do pro
 Se tudo correr conforme o desejado, o output do console será o seguinte:
 
 ![](assets/console-output.png)
+
+**Executar a aplicação**
+
+Para executar a aplicação basta executar o comando `yarn run:service` na raíz do projecto e será criado um Windows service denominado `Server Monitoring`, conforme a imagem abaixo.
+
+![](assets/service.png)
