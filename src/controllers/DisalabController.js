@@ -5,7 +5,7 @@ const moment = require("moment");
 
 module.exports = {
   async index() {
-    const data = await RLNKIDX4.findAll({
+    const data = await RLNKIDX4.findOne({
       attributes: [
         [literal("LEFT(LABNO,3)"), "lab"],
         [fn("year", col("REGDATE")), "year"],
@@ -17,6 +17,7 @@ module.exports = {
         [Op.and]: [
           literal("year(REGDATE) = year(GETDATE())"),
           literal("month(REGDATE) = month(GETDATE())"),
+          literal("day(REGDATE) = day(GETDATE())"),
         ],
       },
       group: [
@@ -33,6 +34,10 @@ module.exports = {
       ],
     });
 
-    return { updated_at: moment().format("YYYY-MM-DD hh:mm:ss"), data: data };
+    if (data) {
+      return data.dataValues;
+    }
+
+    return { records: null };
   },
 };

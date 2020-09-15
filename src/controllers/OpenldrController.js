@@ -5,7 +5,7 @@ const moment = require("moment");
 
 module.exports = {
   async index() {
-    const data = await Requests.findAll({
+    const data = await Requests.findOne({
       attributes: [
         [literal("SUBSTRING(RequestID,7,3)"), "lab"],
         [fn("year", col("RegisteredDatetime")), "year"],
@@ -17,6 +17,7 @@ module.exports = {
         [Op.and]: [
           literal("year(RegisteredDatetime) = year(GETDATE())"),
           literal("month(RegisteredDatetime) = month(GETDATE())"),
+          literal("day(RegisteredDatetime) = day(GETDATE())"),
         ],
       },
       group: [
@@ -33,6 +34,10 @@ module.exports = {
       ],
     });
 
-    return { updated_at: moment().format("YYYY-MM-DD hh:mm:ss"), data: data };
+    if (data) {
+      return data.dataValues;
+    }
+
+    return { records: null };
   },
 };

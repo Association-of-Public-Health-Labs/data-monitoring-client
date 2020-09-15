@@ -1,29 +1,40 @@
-// const { disalab, openldr } = require("../config/database");
 const Sequelize = require("sequelize");
 
-const openldr_db = new Sequelize("OpenLDRData", "sa", "disalab", {
-  host: "localhost",
-  dialect: "mssql",
-  dialectOptions: {
-    options: {
-      encrypt: false,
+const openldr = new Sequelize(
+  process.env.OPENLDR_DB,
+  process.env.OPENLDR_USER,
+  process.env.OPENLDR_PASSWORD,
+  {
+    host: process.env.HOST,
+    dialect: "mssql",
+    dialectOptions: {
+      options: {
+        encrypt: false,
+      },
+      bigNumberStrings: true,
     },
-    bigNumberStrings: true,
-  },
-});
+    // logging: false,
+  }
+);
 
-const disalab_db = new Sequelize("DisalabData", "sa", "disalab", {
-  host: "localhost",
-  dialect: "mssql",
-  dialectOptions: {
-    options: {
-      encrypt: false,
+const disalab = new Sequelize(
+  process.env.DISA_DB,
+  process.env.DISA_USER,
+  process.env.DISA_PASSWORD,
+  {
+    host: process.env.HOST,
+    dialect: "mssql",
+    dialectOptions: {
+      options: {
+        encrypt: false,
+      },
+      bigNumberStrings: true,
     },
-    bigNumberStrings: true,
-  },
-});
+    logging: false,
+  }
+);
 
 module.exports = {
-  openldr: openldr_db,
-  disalab: disalab_db,
+  openldr: openldr,
+  disalab: disalab,
 };

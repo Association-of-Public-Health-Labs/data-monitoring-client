@@ -1,30 +1,50 @@
 const cron = require("node-cron");
 const fs = require("fs");
 const path = require("path");
+const api = require("./config/api");
+const socket = require("./config/socket");
 const OpenldrController = require("./controllers/OpenldrController");
 const DisalabController = require("./controllers/DisalabController");
+const SystemController = require("./controllers/SystemController");
+const ConnectionController = require("./controllers/ConnectionController");
 
+// Data Sync schedule
 cron.schedule("* */1 * * *", async () => {
+  if (!socket.connected) {
+    return;
+  }
+
+  const connection = await ConnectionController.checkConnectionWithAPI();
+
+  if (!connection) {
+    return;
+  }
+
   const disa = await DisalabController.index();
   const ldr = await OpenldrController.index();
 
-  fs.writeFile(
-    path.resolve(__dirname, "../cache", "disalab.json"),
-    JSON.stringify(disa, null, 2),
-    (err) => {
-      if (err) throw new Error("Something went wrong!");
+  const { data } = await api.put(`servers/${process.env.SERVER_ID}/data`, {
+    name: process.env.SERVER_NAME,
+    category: process.env.SERVER_CATEGORY,
+    report_date: String(new Date()),
+    disalab_total_records: disa.records,
+    openldr_total_records: ldr.records,
+  });
+});
 
-      console.log("File generated successfully");
-    }
-  );
+// LIS Version schedule
+cron.schedule("* */1 * * *", async () => {
+  if (!socket.connected) {
+    return;
+  }
 
-  fs.writeFile(
-    path.resolve(__dirname, "../cache", "openldr.json"),
-    JSON.stringify(ldr, null, 2),
-    (err) => {
-      if (err) throw new Error("Something went wrong!");
+  const connection = await ConnectionController.checkConnectionWithAPI();
 
-      console.log("File generated successfully");
-    }
-  );
+  if (!connection) {
+    return;
+  }
+
+  const versions = await SystemController.version();
+
+  const { data } = await api.put(`versions/${process.env.SERVER_ID}`, versions);
 });

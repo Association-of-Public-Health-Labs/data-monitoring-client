@@ -288,3 +288,310 @@ Stacktrace:   at System.Diagnostics.Process.Kill()
 2020-08-17 15:44:12 - Finished datamonitoring.exe
 2020-08-17 15:44:13 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2020-08-17 15:44:13 - Started 18752
+2020-08-20 07:19:20 - Stopping datamonitoring.exe
+2020-08-20 07:19:20 - ProcessKill 18752
+2020-08-20 07:19:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-20 07:20:16 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-20 07:20:16 - Started 8984
+2020-08-20 16:01:57 - Stopping datamonitoring.exe
+2020-08-20 16:01:57 - ProcessKill 8984
+2020-08-20 16:01:57 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-20 16:02:41 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-20 16:02:43 - Started 7436
+2020-08-21 10:38:42 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-21 10:38:42 - Started 8668
+2020-08-21 21:26:46 - Stopping datamonitoring.exe
+2020-08-21 21:26:46 - ProcessKill 8668
+2020-08-21 21:26:47 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-21 23:01:08 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-21 23:01:08 - Started 9356
+2020-08-22 07:22:28 - Stopping datamonitoring.exe
+2020-08-22 07:22:28 - ProcessKill 9356
+2020-08-22 07:22:29 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-22 07:29:26 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-22 07:29:26 - Started 8764
+2020-08-22 12:52:07 - Stopping datamonitoring.exe
+2020-08-22 12:52:08 - ProcessKill 8764
+2020-08-22 12:52:08 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-22 12:52:47 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-22 12:52:47 - Started 8632
+2020-08-24 15:12:38 - Stopping datamonitoring.exe
+2020-08-24 15:12:38 - ProcessKill 8632
+2020-08-24 15:12:38 - Found child process: 8704 Name: conhost.exe
+2020-08-24 15:12:38 - Found child process: 10312 Name: node.exe
+2020-08-24 15:12:39 - Stopping process 8704
+2020-08-24 15:12:39 - Send SIGINT 8704
+2020-08-24 15:12:39 - SIGINT to 8704 failed - Killing as fallback
+2020-08-24 15:12:39 - Stopping process 10312
+2020-08-24 15:12:39 - Send SIGINT 10312
+2020-08-24 15:12:39 - SIGINT to 10312 failed - Killing as fallback
+2020-08-24 15:12:39 - Stopping process 8632
+2020-08-24 15:12:39 - Send SIGINT 8632
+2020-08-24 15:12:39 - SIGINT to 8632 failed - Killing as fallback
+2020-08-24 15:12:39 - Finished datamonitoring.exe
+2020-08-24 15:12:40 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-24 15:12:40 - Started 6000
+2020-08-24 15:14:05 - Stopping datamonitoring.exe
+2020-08-24 15:14:05 - ProcessKill 6000
+2020-08-24 15:14:05 - Found child process: 24488 Name: conhost.exe
+2020-08-24 15:14:05 - Found child process: 8800 Name: node.exe
+2020-08-24 15:14:05 - Stopping process 24488
+2020-08-24 15:14:05 - Send SIGINT 24488
+2020-08-24 15:14:05 - SIGINT to 24488 failed - Killing as fallback
+2020-08-24 15:14:05 - Stopping process 8800
+2020-08-24 15:14:05 - Send SIGINT 8800
+2020-08-24 15:14:05 - SIGINT to 8800 failed - Killing as fallback
+2020-08-24 15:14:05 - Stopping process 6000
+2020-08-24 15:14:05 - Send SIGINT 6000
+2020-08-24 15:14:05 - SIGINT to 6000 failed - Killing as fallback
+2020-08-24 15:14:05 - Finished datamonitoring.exe
+2020-08-26 14:33:11 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-26 14:33:11 - Started 10816
+2020-08-27 10:12:25 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-27 10:12:25 - Started 8080
+2020-08-27 14:55:54 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-27 14:55:54 - Started 8460
+2020-08-30 10:32:31 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-30 10:32:31 - Started 9016
+2020-08-31 19:02:03 - Stopping datamonitoring.exe
+2020-08-31 19:02:03 - ProcessKill 9016
+2020-08-31 19:02:03 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-08-31 19:02:55 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-08-31 19:02:56 - Started 8916
+2020-09-02 10:00:15 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-02 10:00:15 - Started 8800
+2020-09-04 08:03:19 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-04 08:03:19 - Started 8336
+2020-09-06 15:34:22 - Stopping datamonitoring.exe
+2020-09-06 15:34:22 - ProcessKill 8336
+2020-09-06 15:34:23 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-06 15:35:05 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-06 15:35:07 - Started 8048
+2020-09-07 08:22:03 - Stopping datamonitoring.exe
+2020-09-07 08:22:03 - ProcessKill 8048
+2020-09-07 08:22:04 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-07 08:22:52 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-07 08:22:52 - Started 8992
+2020-09-08 18:07:47 - Stopping datamonitoring.exe
+2020-09-08 18:07:47 - ProcessKill 8992
+2020-09-08 18:07:48 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-08 18:08:32 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-08 18:08:32 - Started 8528
+2020-09-09 11:43:27 - Stopping datamonitoring.exe
+2020-09-09 11:43:27 - ProcessKill 8528
+2020-09-09 11:43:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-09 11:44:12 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-09 11:44:12 - Started 8552
+2020-09-10 11:53:49 - Stopping datamonitoring.exe
+2020-09-10 11:53:49 - ProcessKill 8552
+2020-09-10 11:53:49 - Found child process: 8612 Name: conhost.exe
+2020-09-10 11:53:49 - Found child process: 10344 Name: node.exe
+2020-09-10 11:53:50 - Stopping process 8612
+2020-09-10 11:53:50 - Send SIGINT 8612
+2020-09-10 11:53:50 - SIGINT to 8612 failed - Killing as fallback
+2020-09-10 11:53:50 - Stopping process 10344
+2020-09-10 11:53:50 - Send SIGINT 10344
+2020-09-10 11:53:50 - SIGINT to 10344 failed - Killing as fallback
+2020-09-10 11:53:50 - Stopping process 8552
+2020-09-10 11:53:50 - Send SIGINT 8552
+2020-09-10 11:53:50 - SIGINT to 8552 failed - Killing as fallback
+2020-09-10 11:53:50 - Finished datamonitoring.exe
+2020-09-11 14:27:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-11 14:27:18 - Started 13548
+2020-09-11 14:29:30 - Stopping datamonitoring.exe
+2020-09-11 14:29:30 - ProcessKill 13548
+2020-09-11 14:29:30 - Found child process: 25928 Name: conhost.exe
+2020-09-11 14:29:30 - Found child process: 22684 Name: node.exe
+2020-09-11 14:29:31 - Stopping process 25928
+2020-09-11 14:29:31 - Send SIGINT 25928
+2020-09-11 14:29:31 - SIGINT to 25928 failed - Killing as fallback
+2020-09-11 14:29:31 - Stopping process 22684
+2020-09-11 14:29:31 - Send SIGINT 22684
+2020-09-11 14:29:31 - SIGINT to 22684 failed - Killing as fallback
+2020-09-11 14:29:31 - Stopping process 13548
+2020-09-11 14:29:31 - Send SIGINT 13548
+2020-09-11 14:29:31 - SIGINT to 13548 failed - Killing as fallback
+2020-09-11 14:29:31 - Finished datamonitoring.exe
+2020-09-11 14:29:37 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-11 14:29:37 - Started 7304
+2020-09-11 14:48:09 - Stopping datamonitoring.exe
+2020-09-11 14:48:09 - ProcessKill 7304
+2020-09-11 14:48:10 - Found child process: 11324 Name: conhost.exe
+2020-09-11 14:48:10 - Found child process: 26008 Name: node.exe
+2020-09-11 14:48:10 - Stopping process 11324
+2020-09-11 14:48:10 - Send SIGINT 11324
+2020-09-11 14:48:10 - SIGINT to 11324 failed - Killing as fallback
+2020-09-11 14:48:10 - Found child process: 12344 Name: cmd.exe
+2020-09-11 14:48:10 - Found child process: 7280 Name: conhost.exe
+2020-09-11 14:48:10 - Found child process: 10212 Name: WMIC.exe
+2020-09-11 14:48:10 - Stopping process 7280
+2020-09-11 14:48:10 - Process 7280 is already stopped
+2020-09-11 14:48:10 - Stopping process 10212
+2020-09-11 14:48:10 - Process 10212 is already stopped
+2020-09-11 14:48:10 - Stopping process 12344
+2020-09-11 14:48:10 - Process 12344 is already stopped
+2020-09-11 14:48:10 - Stopping process 26008
+2020-09-11 14:48:10 - Send SIGINT 26008
+2020-09-11 14:48:10 - SIGINT to 26008 failed - Killing as fallback
+2020-09-11 14:48:10 - Stopping process 7304
+2020-09-11 14:48:10 - Send SIGINT 7304
+2020-09-11 14:48:10 - SIGINT to 7304 failed - Killing as fallback
+2020-09-11 14:48:10 - Finished datamonitoring.exe
+2020-09-13 16:19:15 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-13 16:19:15 - Started 8128
+2020-09-14 09:53:40 - Stopping datamonitoring.exe
+2020-09-14 09:53:40 - ProcessKill 8128
+2020-09-14 09:53:40 - Shutdown exception
+Message:Class not registered
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-14 10:44:50 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-14 10:44:50 - Started 8712
+2020-09-14 18:33:09 - Stopping datamonitoring.exe
+2020-09-14 18:33:09 - ProcessKill 8712
+2020-09-14 18:33:09 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-09-14 18:33:55 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\node_modules\node-windows\lib\wrapper.js --file C:\Users\User\Documents\Projects\APHL\Github\data-monitoring-client\src\server.js --scriptoptions= --log "Data Monitoring wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-09-14 18:33:55 - Started 9052
+2020-09-15 11:39:11 - Stopping datamonitoring.exe
+2020-09-15 11:39:11 - ProcessKill 9052
+2020-09-15 11:39:11 - Found child process: 9096 Name: conhost.exe
+2020-09-15 11:39:11 - Found child process: 10416 Name: node.exe
+2020-09-15 11:39:12 - Stopping process 9096
+2020-09-15 11:39:12 - Send SIGINT 9096
+2020-09-15 11:39:12 - SIGINT to 9096 failed - Killing as fallback
+2020-09-15 11:39:12 - Stopping process 10416
+2020-09-15 11:39:12 - Send SIGINT 10416
+2020-09-15 11:39:12 - SIGINT to 10416 failed - Killing as fallback
+2020-09-15 11:39:12 - Stopping process 9052
+2020-09-15 11:39:12 - Send SIGINT 9052
+2020-09-15 11:39:12 - SIGINT to 9052 failed - Killing as fallback
+2020-09-15 11:39:12 - Finished datamonitoring.exe
