@@ -9,7 +9,7 @@ const SystemController = require("./controllers/SystemController");
 const ConnectionController = require("./controllers/ConnectionController");
 
 // Data Sync schedule
-cron.schedule("* */1 * * *", async () => {
+cron.schedule("0 */4 * * *", async () => {
   if (!socket.connected) {
     return;
   }
@@ -33,7 +33,7 @@ cron.schedule("* */1 * * *", async () => {
 });
 
 // LIS Version schedule
-cron.schedule("* */1 * * *", async () => {
+cron.schedule("0 2 * * *", async () => {
   if (!socket.connected) {
     return;
   }

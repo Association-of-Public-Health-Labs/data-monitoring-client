@@ -38,4 +38,4 @@ Para executar a aplicação basta o comando `yarn run:service` na raíz do proje
 A actualização do código da aplicação pode ser feita a partir das seguintes instruções:
 
 1. Executar o comando `git fetch --all`
-2. Por fim fazer o reset do código local usando `git reset –hard origin/master` (assumindo que o nome da branch é `master`)
+2. Por fim fazer o reset do código local usando `git reset -–hard origin/master` (assumindo que o nome da branch é `master`)
