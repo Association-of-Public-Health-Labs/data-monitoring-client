@@ -13,13 +13,13 @@ module.exports = {
         [fn("DAY", col("RegisteredDatetime")), "days"],
         [fn("count", literal("Distinct RequestID")), "records"],
       ],
-      where: {
-        [Op.and]: [
-          literal("year(RegisteredDatetime) = year(GETDATE())"),
-          literal("month(RegisteredDatetime) = month(GETDATE())"),
-          literal("day(RegisteredDatetime) = day(GETDATE())"),
-        ],
-      },
+      // where: {
+      //   [Op.and]: [
+      //     literal("year(RegisteredDatetime) = year(GETDATE())"),
+      //     literal("month(RegisteredDatetime) = month(GETDATE())"),
+      //     literal("day(RegisteredDatetime) = day(GETDATE())"),
+      //   ],
+      // },
       group: [
         literal("SUBSTRING(RequestID,7,3)"),
         fn("year", col("RegisteredDatetime")),

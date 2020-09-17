@@ -13,13 +13,13 @@ module.exports = {
         [fn("DAY", col("REGDATE")), "days"],
         [fn("count", literal("Distinct LABNO")), "records"],
       ],
-      where: {
-        [Op.and]: [
-          literal("year(REGDATE) = year(GETDATE())"),
-          literal("month(REGDATE) = month(GETDATE())"),
-          literal("day(REGDATE) = day(GETDATE())"),
-        ],
-      },
+      // where: {
+      //   [Op.and]: [
+      //     literal("year(REGDATE) = year(GETDATE())"),
+      //     literal("month(REGDATE) = month(GETDATE())"),
+      //     literal("day(REGDATE) = day(GETDATE())"),
+      //   ],
+      // },
       group: [
         literal("LEFT(LABNO,3)"),
         fn("year", col("REGDATE")),
