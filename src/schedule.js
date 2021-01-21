@@ -3,8 +3,6 @@ const fs = require("fs");
 const path = require("path");
 const api = require("./config/api");
 const socket = require("./config/socket");
-const OpenldrController = require("./controllers/OpenldrController");
-const DisalabController = require("./controllers/DisalabController");
 const SystemController = require("./controllers/SystemController");
 const ConnectionController = require("./controllers/ConnectionController");
 
@@ -20,15 +18,15 @@ cron.schedule("0 */4 * * *", async () => {
     return;
   }
 
-  const disa = await DisalabController.index();
-  const ldr = await OpenldrController.index();
+  // const disa = await DisalabController.index();
+  // const ldr = await OpenldrController.index();
 
   const { data } = await api.put(`servers/${process.env.SERVER_ID}/data`, {
     name: process.env.SERVER_NAME,
     category: process.env.SERVER_CATEGORY,
     report_date: String(new Date()),
-    disalab_total_records: disa.records,
-    openldr_total_records: ldr.records,
+    disalab_total_records: null,
+    openldr_total_records: null,
   });
 });
 

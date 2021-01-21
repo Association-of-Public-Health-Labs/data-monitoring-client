@@ -10,6 +10,7 @@ const openldr = {
         encrypt: false,
       },
       bigNumberStrings: true,
+      multipleStatements: true
     },
   },
 };

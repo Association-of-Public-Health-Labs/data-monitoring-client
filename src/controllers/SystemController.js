@@ -2,6 +2,8 @@ const si = require("systeminformation");
 const os = require("os");
 const { getFileProperties } = require("get-file-properties");
 
+const {openldr} = require("../database");
+
 module.exports = {
   async index(req, res) {
     const cpu = await si.cpu();
@@ -65,4 +67,17 @@ module.exports = {
       disaxlreports: disaxlreports.Version,
     };
   },
+
+  async checkIfSQLAgentIsOnline(){
+    const sql = "DECLARE @agent NVARCHAR(512); " +
+    "SELECT @agent = COALESCE(N'SQLAgent$' + CONVERT(SYSNAME, SERVERPROPERTY('localhost')),"+
+    " N'SQLServerAgent'); "+
+    "EXEC master.dbo.xp_servicecontrol 'QueryState', @agent;";
+
+    const sqlagent = await openldr.query(sql, {raw: true});
+
+    const status = sqlagent[0][0];
+
+    return status["Current Service State"];
+  }
 };
