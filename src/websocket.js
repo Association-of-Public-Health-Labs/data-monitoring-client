@@ -1,5 +1,5 @@
 const si = require("systeminformation");
-const disk = require('diskusage');
+// const disk = require('diskusage');
 const os = require("./utils/cpu");
 const isRunning = require("./utils/process");
 const io = require("./config/socket");
@@ -12,7 +12,7 @@ setInterval(async function () {
   if (io.connected) {
     const ram = await si.mem();
     const sqlagent = await SystemController.checkIfSQLAgentIsOnline();
-    const { free } = await disk.check("c:");
+    // const { free } = await disk.check("c:");
 
     isRunning(process.env.DISACOMMS, (status) => {
       isDisacommsOn = status
@@ -27,7 +27,7 @@ setInterval(async function () {
         ram: ram.used,
         sqlagent: sqlagent,
         isDisacommsOn: isDisacommsOn,
-        diskFree: free
+        diskFree: null
       });
     });
   }
