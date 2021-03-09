@@ -47,7 +47,7 @@ module.exports = {
 
   async version() {
     const disacomms = await getFileProperties(`C:\\disalab\\DisaComms.exe`);
-    const openldr = await getFileProperties(`C:\\disalab\\openldr.exe`);
+    const openldr_exe = await getFileProperties(`C:\\disalab\\openldr.exe`);
     const wxdisa = await getFileProperties(`C:\\disalab\\wxdisa.exe`);
     const wxdict = await getFileProperties(`C:\\disalab\\wxdict.exe`);
     const wxinstrument = await getFileProperties(
@@ -57,14 +57,19 @@ module.exports = {
       `C:\\disalab\\disaxlreports.exe`
     );
 
+    const sqlserver = await openldr.query("SELECT @@VERSION", {raw: true});
+
+    const sqlversion = sqlserver[0][0];
+
     return {
       server_id: process.env.SERVER_ID,
       disacomms: disacomms.Version,
-      openldr: openldr.Version,
+      openldr: openldr_exe.Version,
       wxdisa: wxdisa.Version,
       wxdict: wxdict.Version,
       wxinstrument: wxinstrument.Version,
       disaxlreports: disaxlreports.Version,
+      sqlserver: sqlversion[""]
     };
   },
 
@@ -79,5 +84,5 @@ module.exports = {
     const status = sqlagent[0][0];
 
     return status["Current Service State"];
-  }
+  },
 };
