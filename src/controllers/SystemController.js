@@ -1,6 +1,7 @@
 const si = require("systeminformation");
 const os = require("os");
 const { getFileProperties } = require("get-file-properties");
+const api = require("../config/api");
 
 const {openldr} = require("../database");
 
@@ -85,4 +86,13 @@ module.exports = {
 
     return status["Current Service State"];
   },
+
+  async updateVersions() {
+    try {
+      const versions = await this.version();
+      const { data } = await api.put(`versions/${process.env.SERVER_ID}`, versions);
+    } catch (error) {
+      console.log(error)
+    }
+  }
 };
