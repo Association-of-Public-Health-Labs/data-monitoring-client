@@ -29,6 +29,16 @@ setInterval(async function () {
         isDisacommsOn: isDisacommsOn,
         diskFree: null
       });
+      console.log({
+        server_id: process.env.SERVER_ID,
+        server_name: process.env.SERVER_NAME,
+        server_category: process.env.SERVER_CATEGORY,
+        cpu: percentage,
+        ram: ram.used,
+        sqlagent: sqlagent,
+        isDisacommsOn: isDisacommsOn,
+        diskFree: null
+      })
     });
   }
 }, interval);
