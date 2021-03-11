@@ -15,4 +15,4 @@ routes.get("/sqlagent", SystemController.checkIfSQLAgentIsOnline);
 
 app.use(routes);
 
-app.listen(6767);
+app.listen(process.env.PORT);
